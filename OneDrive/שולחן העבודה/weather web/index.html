@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast for Israeli Cities</title>
+    <link rel="stylesheet" href="master.css"> <!-- Link to the external CSS -->
+</head>
+
+<body>
+    <header>
+        <h1>Weather Forecast for Israeli Cities</h1>
+        <p>Select a city to get a 7-day weather forecast.</p>
+    </header>
+
+    <!-- Scrollable Dropdown -->
+    <div class="search-container">
+        <select id="citySelect">
+            <option value="">Select a city...</option>
+            <!-- Cities will be loaded dynamically here -->
+        </select>
+        <button id="searchBtn">Get Forecast</button>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loading">
+        <img src="https://i.imgur.com/LLCZykD.gif" alt="Loading...">
+    </div>
+
+    <!-- Forecast Container -->
+    <div id="forecastContainer" class="forecast-container">
+        <!-- 7-day forecast will be displayed here -->
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error-message"></div>
+
+    <script src="main.js"></script> <!-- Link to the external JS file -->
+</body>
+
+</html>

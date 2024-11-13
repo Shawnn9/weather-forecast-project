@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",              // Specifies that we are using Chrome for debugging
+            "request": "launch",           // Indicates we are launching Chrome from VS Code
+            "name": "Launch Chrome against localhost",  // A custom name for the launch configuration
+            "url": "http://localhost:8080",  // The URL of your locally served website
+            "webRoot": "${workspaceFolder}"  // Path to your project folder
+        }
+    ]
+}

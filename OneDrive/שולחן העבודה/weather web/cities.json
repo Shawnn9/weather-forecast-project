@@ -1,0 +1,35 @@
+{
+    "cities": [
+      {
+        "name": "Tel Aviv",
+        "latitude": 32.0853,
+        "longitude": 34.7818
+      },
+      {
+        "name": "Jerusalem",
+        "latitude": 31.7683,
+        "longitude": 35.2137
+      },
+      {
+        "name": "Haifa",
+        "latitude": 32.7940,
+        "longitude": 34.9896
+      },
+      {
+        "name": "Eilat",
+        "latitude": 29.5581,
+        "longitude": 34.9519
+      },
+      {
+        "name": "Nazareth",
+        "latitude": 32.6996,
+        "longitude": 35.3036
+      },
+      {
+        "name": "Ashdod",
+        "latitude": 31.8010,
+        "longitude": 34.6437
+      }
+    ]
+  }
+  

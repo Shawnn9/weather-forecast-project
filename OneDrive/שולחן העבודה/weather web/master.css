@@ -1,0 +1,86 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Search Container */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#citySelect {
+    padding: 10px;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: scroll; /* Ensures scrolling */
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #45a049;
+}
+
+/* Forecast Container */
+#forecastContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Loading Indicator */
+#loading {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loading img {
+    width: 50px;
+    height: 50px;
+}
